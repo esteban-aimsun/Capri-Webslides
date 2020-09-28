@@ -4005,11 +4005,11 @@ Slides (Counter/Arrows)
 ============================== */
 #counter,
 #navigation a {
-  color: #abc; }
+  color: rgba(0, 10, 40, 0); }
 
 #webslides:hover #navigation a:hover {
-  background-color: rgba(0, 10, 40, 0.8);
-  color: #fff; }
+  background-color: rgba(0, 10, 40, 0);
+  color: rgba(0, 10, 40, 0); }
 
 /*============================
 Footer
