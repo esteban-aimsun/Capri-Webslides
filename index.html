@@ -260,9 +260,7 @@
 <!-- SLIDE 12 -->       
         <section class="bg-purple">
           <div style="margin-top: -50px;" class="embed">
-              <a style="margin-bottom: 100px !important" class="btn-back" href="index.html#slide=11"><i class="fas fa-chevron-left"></i></a>
-              <a style="margin-bottom: 100px !important" class="btn-next" href="index.html#slide=13"><i class="fas fa-chevron-right"></i></a>
-            <video autoplay  >
+            <video id="p5-20" autoplay>
               <source src="static/images/video/B1_p5_r20_s1_5ppl5%20Replication%20212629.mp4" type="video/mp4">
             </video>
           </div>
@@ -327,6 +325,10 @@
 
     <script>
       window.ws = new WebSlides();
+      var vid1 = document.getElementById("p5-20");
+        vid1.onended = function() {
+        window.location.href="index.html#slide=13";
+    };
     </script>
 
     <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->

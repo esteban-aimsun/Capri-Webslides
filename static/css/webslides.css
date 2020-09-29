@@ -1533,18 +1533,17 @@ nav.navbar ul li {
     a.btn-next {
         display:inline-block;
         padding:0.4em;
-        margin:2em;
-        height: 32px;
-        width: 32px;
+        margin:0.5em;
+        height: 48px;
+        width: 48px;
         border-radius:50%;
         box-sizing: border-box;
         text-decoration:none;
-        font-size: 18px !important;
+        font-size: 28px !important;
         color:#C34478 !important;
         background-color: rgba(255, 255, 255, 0);
         text-align:center;
         transition: all 0.2s;
-        font-size: 35px;
         position: absolute;
         top: 45%;
         right: 0;
@@ -1561,18 +1560,17 @@ nav.navbar ul li {
     a.btn-back {
         display:inline-block;
         padding:0.4em;
-        margin:2em;
-        height: 32px;
-        width: 32px;
+        margin:0.5em;
+        height: 48px;
+        width: 48px;
         border-radius:50%;
         box-sizing: border-box;
         text-decoration:none;
-        font-size: 18px !important;
+        font-size: 28px !important;
         color:#C34478 !important;
         background-color: rgba(255, 255, 255, 0);
         text-align:center;
         transition: all 0.2s;
-        font-size: 35px;
         position: absolute;
         top: 45%;
         left: 0;
