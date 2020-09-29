@@ -1507,6 +1507,24 @@ nav.navbar ul li {
     }
 
     a.btn-select-rq {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 1.4em 0.4em;
+    margin:0.2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:200;
+    color:#fff !important;
+    background-color: #C34478;
+    border: 3px solid #C34478;
+    text-align:center;
+    transition: all 0.2s;
+    font-size: 18px;
+   }
+   @media (min-width: 768px) {
+    a.btn-select-rq {
         display: inline-block;
         height: 180px;
         width: 180px;
@@ -1522,7 +1540,7 @@ nav.navbar ul li {
         text-align:center;
         transition: all 0.2s;
         font-size: 35px;
-    }
+       } }
 
     a.btn-select-rq:hover {
         background-color:#FFF;
@@ -1586,22 +1604,42 @@ nav.navbar ul li {
 
     a.btn-select-big {
         display: inline-block;
-        height: 380px;
-        width: 380px;
+        height: 300px;
+        width: 300px;
         border-radius: 50%;
         padding: 3.5em 2em;
-        margin:0.2em 2.5em;
+        margin:1em 3em;
         box-sizing: border-box;
         text-decoration:none;
         font-weight:200;
-        font-size: 32px !important;
+        font-size: 26px !important;
         color:#C34478 !important;
         background-color: #FFF;
         border: 3px solid #C34478;
         text-align:center;
         transition: all 0.2s;
         font-size: 35px;
-    }
+        }
+
+    @media (min-width: 768px) {
+        a.btn-select-big {
+            display: inline-block;
+            height: 380px;
+            width: 380px;
+            border-radius: 50%;
+            padding: 3.5em 2em;
+            margin:0.2em 2.5em;
+            box-sizing: border-box;
+            text-decoration:none;
+            font-weight:200;
+            font-size: 32px !important;
+            color:#C34478 !important;
+            background-color: #FFF;
+            border: 3px solid #C34478;
+            text-align:center;
+            transition: all 0.2s;
+            font-size: 35px;
+            } }
 
 /*============================================
 5. SLIDES (Full Screen)
@@ -2890,13 +2928,27 @@ tr > td {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 4px 16px;
+    padding: 16px 10px;
     border-radius: 5px;
-}
+    } }
+        @media (min-width: 768px) {
+        .indicator-table {
+            background-color: rgba(255, 255, 255, 0.7);
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 4px 16px;
+            border-radius: 5px;
+            } }
 
 .indicator-table h4 {
-    font-size: 28px;
-}
+    font-size: 16px;
+    line-height: 0.5em;
+    }
+        @media (min-width: 768px) {
+        .indicator-table h4 {
+            font-size: 28px;
+            } }
 
 
 /*=========================================
